@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-      <header class="max-w-[1440px] m-auto pt-[20px]">
-         <section class="max-w-[1200px] m-auto flex items-center justify-between mb-[30px]">
+      <header class="xl:max-w-[1440px] m-auto pt-[20px] sm:m-auto px-[20px]">
+         <section class="xl:max-w-[1200px] sm:w-auto m-auto flex items-center justify-between mb-[30px]">
             <img src="./image/Logo.png" alt="error">
-            <nav class="flex items-center gap-[20px]">
+            <nav class="flex items-center gap-[20px] xl:block sm:hidden">
                 <select><option>Homepage</option></select>
                 <select><option>Recipe page</option></select>
                 <select><option>Pages</option></select>
@@ -23,13 +23,13 @@
          </section>
          <img src="./image/Header Image.png" alt="error">
       </header>
-      <main>
-        <section class="max-w-[1200px] m-auto pt-[20px] mt-[50px]">
+      <main class="px-[20px]">
+        <section class="xl:max-w-[1200px] sm:w-auto m-auto pt-[20px] mt-[50px]">
             <div class="flex items-center gap-[20px]">
             <h1 class="text-[36px] font-[700] text-[#000000] pb-[0px]">Desserts</h1>
             <p>(98 Recipes)</p>
             </div>
-            <div class="flex justify-between items-center">
+            <div class="xl:flex xl:flex-row xl:justify-between items-center sm:flex sm:flex-col sm:justify-center">
             <p>One thing I learned living in the Canarsie section of Brooklyn, NY was how to cook a <br>
                  good Italian meal. Here is a recipe I created after having this dish in a restaurant. Enjoy!</p>
             <div class="flex items-center gap-[74px] border-[2px] border-gray-500 p-[5px] rounded-[5px]">
@@ -38,7 +38,7 @@
             </div>
             </div>
         </section>
-        <section class="max-w-[1200px] m-auto mt-[50px] flex flex-wrap gap-[60px]"> 
+        <section class="xl:max-w-[1200px] sm:w-auto m-auto mt-[50px] xl:flex xl:flex-row xl:flex-wrap gap-[60px] sm:flex sm:flex-col sm:justify-center sm:items-center"> 
             <div>
                 <img src="./image/1.png" alt="error">
                 <h1 class="text-[18px] font-[600]">Decadent Raspberry and <br>
@@ -146,8 +146,8 @@
         <button class="px-[30px] py-[7px] rounded-[5px] border-[2px] border-gray-500">Load More</button>
         </div>
       </main>
-      <footer>
-        <section class="max-w-[1200px] m-auto mt-[100px]">
+      <footer class="px-[20px]">
+        <section class="xl:max-w-[1200px] m-auto mt-[100px] sm:w-auto">
             <div class="flex justify-between">
                 <div>
                     <img src="./image/Logo.png" alt="error">
@@ -157,7 +157,7 @@
                         so beguiled and demoralized by the charms of <br>
                         pleasure of the moment</p>
                 </div>
-                <div class="flex items-center gap-[150px]">
+                <div class="xl:flex items-center gap-[150px] sm:hidden">
                     <div>
                         <b>Tastebite</b>
                         <p class="text-[14px] text-gray-500 font-[400]">About us</p>
@@ -182,7 +182,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-[1200px] m-auto mt-[100px]">
+        <section class="xl:max-w-[1200px] m-auto mt-[100px] sm:w-auto">
             <div class="border-b-[2px] border-gray-500 mb-[10px]"></div>
             <div class="flex justify-between items-center">
                 <p class="text-[12px] font-[400] text-gray-500">© 2020 Tastebite - All rights reserved</p>
