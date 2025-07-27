@@ -18,6 +18,9 @@ export default {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+
+      'mb': '1110px',
+      // => @media (min-width: 1110px) { ... }
     },
     extend: {
       backgroundImage: {
